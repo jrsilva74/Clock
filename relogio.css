@@ -1,0 +1,44 @@
+				body {
+					background-color: gray;
+				}
+				
+				#ponteiro_segundo {
+					width: 1px;
+					height: 130px;
+					background-color: black;
+					position: absolute;
+					transform-origin: bottom;
+					top: 100px;
+					left: 300px;
+				}
+				
+				#ponteiro_minuto {
+						width: 4px;
+						height: 100px;
+						background-color: black;
+						position: absolute;
+						transform-origin: bottom;
+						top: 130px;
+						left: 299px;
+				}
+				
+								
+				#ponteiro_hora {
+						width: 6px;
+						height: 80px;
+						background-color: black;
+						position: absolute;
+						transform-origin: bottom;
+						top: 150px;
+						left: 298px;
+				}
+				
+				#clock {
+					position: absolute;
+					top: 55px;
+					left: 127px;
+				}
+				
+				#button_on {
+					margin-left: 250px;
+				}
